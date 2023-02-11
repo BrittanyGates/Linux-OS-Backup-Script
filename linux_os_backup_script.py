@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """
 This script uses the rsync command to back up specific computer files in the "home" folder onto the backup disk.
+
+Feel free to configure the script for your use!
 """
 
 import os
