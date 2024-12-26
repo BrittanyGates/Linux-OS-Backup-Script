@@ -26,7 +26,7 @@ os.system("rsync -av --exclude={'.*', 'Downloads', 'Public'}" /home/johndoe/ /mn
 
 ### Dependencies
 
-* Python version 3
+* Python 3 (latest release is recommended).
 * rsync
     * Some Linux distributions do not have rsync installed by default. It can be installed via the distribution's
       package manager.
