@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Linux OS Backup Script
-Creator: Brittany Gates (https://github.com/brittbot-bgates) | (https://www.linkedin.com/in/brittanycgates) |
+Creator: Brittany Gates (https://github.com/BrittanyGates) | (https://www.linkedin.com/in/brittanycgates) |
 (https://brittbot.com/)
 About: Back up specific directories in the Home Directory to a local backup device.
 """
