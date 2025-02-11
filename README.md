@@ -26,9 +26,11 @@ os.system("rsync -av --exclude={'.*', 'Downloads', 'Public'}" /home/johndoe/ /mn
 
 ### Dependencies
 
-* Python 3 (latest release is recommended).
+* Python 3
+    * Linux users: Python is already installed.
 * rsync
-    * Some Linux distributions do not have rsync installed by default. It can be installed via the distribution's
+    * Some Linux distributions do not have rsync installed by default.
+    * It can be installed via the distribution's
       package manager.
 
 ### Installing
@@ -40,10 +42,11 @@ os.system("rsync -av --exclude={'.*', 'Downloads', 'Public'}" /home/johndoe/ /mn
 
 ### Executing program
 
-1. Open the Terminal
-2. Change directory (`cd`) to the directory of the program's directory path using the examples below:
+1. Open the Terminal.
+2. Change directory (`cd`) to the directory of the downloaded program's directory path. If you downloaded the files into
+   your `Downloads` directory then you can use this command:
     - `cd /home/$username/Downloads/Linux-OS-Backup-Script-master`
-3. Type the following command to run the program: `python main.py` or `python3 main.py`
+3. Type the following command to run the program: `python main.py` or `python3 main.py`.
 
 ## Help
 
@@ -62,10 +65,12 @@ Brittany Gates
 
 ## Version History
 
-* Latest release notes as of late December 2024.
-  * Added a README
-  * Updated the content in the docstring and its formatting.
-  * Reconfigured the rsync command
+* Latest release notes as of February 2025:
+  * Updated the README.
+* Latest release notes as of late December 2024:
+    * Added a README.
+    * Updated the content in the docstring and its formatting.
+    * Reconfigured the rsync command.
 
 ## License
 
