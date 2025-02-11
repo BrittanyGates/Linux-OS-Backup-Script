@@ -4,7 +4,7 @@
 
 Back up specific directories in the Home Directory to a local backup device.
 
-## Description
+## About The Program
 
 The script uses the rsync command to exclude any directories from the backup. By default, the script excludes all
 hidden directories, also called dot directories.
@@ -22,9 +22,16 @@ Example of how to configure the script:
 os.system("rsync -av --exclude={'.*', 'Downloads', 'Public'}" /home/johndoe/ /mnt/backups/-" + today_date)
 ```
 
-## Getting Started
+## Dependencies
 
-### Dependencies
+The project requires the following programs to execute correctly:
+
+> I recommend installing these in a Python Virtual Environment (virtualenv).
+> 
+> You can also run my project in a virtualenv.
+> 
+> Learn more about virtualenvs, including how to create one, from
+> the [official Python Documentation](https://docs.python.org/3/library/venv.html).
 
 * Python 3
     * Linux users: Python is already installed.
@@ -33,14 +40,14 @@ os.system("rsync -av --exclude={'.*', 'Downloads', 'Public'}" /home/johndoe/ /mn
     * It can be installed via the distribution's
       package manager.
 
-### Installing
+## Download Options
 
 * To run the program you can do either of the following:
     * Clone the repo: https://github.com/BrittanyGates/Linux-OS-Backup-Script.git
     * Download the ZIP file from the
       repo: https://github.com/BrittanyGates/Linux-OS-Backup-Script/archive/refs/heads/master.zip
 
-### Executing program
+## Running The Program
 
 1. Open the Terminal.
 2. Change directory (`cd`) to the directory of the downloaded program's directory path. If you downloaded the files into
@@ -53,7 +60,7 @@ os.system("rsync -av --exclude={'.*', 'Downloads', 'Public'}" /home/johndoe/ /mn
 Please file a new issue using the [Issues](https://github.com/BrittanyGates/Linux-OS-Backup-Script/issues) tab on the
 repo.
 
-## Author
+## Creator
 
 Brittany Gates
 
